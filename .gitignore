@@ -1,0 +1,39 @@
+# Diretórios e arquivos do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório de ambiente do dotenv
+.env
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Diretório de testes de cobertura
+coverage/
+
+# Diretórios de debug e perfil de desempenho
+.cache/
+.DS_Store
+
+# Configuração de IDEs/Editor (VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Compilação e dependências do sistema
+build/
+dist/
+
+# Arquivos temporários de SO
+Thumbs.db
+.DS_Store
