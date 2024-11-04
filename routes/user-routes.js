@@ -21,6 +21,9 @@ const userController = require("../controllers/user-controller");
  *                 type: string
  *               password:
  *                 type: string
+ *               isAdmin:
+ *                 type: boolean
+ *                 description: "Define se o usuário é administrador (somente administradores podem definir)"
  *     responses:
  *       201:
  *         description: Usuário registrado com sucesso

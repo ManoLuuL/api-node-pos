@@ -23,7 +23,7 @@ router.get("/orders", auth, orderController.getUserOrders);
  * @swagger
  * /orders:
  *   post:
- *     summary: Cria um novo pedido
+ *     summary: Cria um novo pedido com vários produtos
  *     tags: [Pedidos]
  *     security:
  *       - bearerAuth: []
@@ -34,10 +34,17 @@ router.get("/orders", auth, orderController.getUserOrders);
  *           schema:
  *             type: object
  *             properties:
- *               productId:
- *                 type: string
- *               quantity:
- *                 type: number
+ *               products:
+ *                 type: array
+ *                 items:
+ *                   type: object
+ *                   properties:
+ *                     productId:
+ *                       type: string
+ *                       description: ID do produto
+ *                     quantity:
+ *                       type: number
+ *                       description: Quantidade do produto
  *     responses:
  *       201:
  *         description: Pedido criado com sucesso
