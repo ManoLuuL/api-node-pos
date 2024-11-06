@@ -35,8 +35,8 @@ API RESTful que será utilizada para gerenciar produtos, categorias e pedidos de
 ## Clonagem
 
 ```
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/ManoLuuL/api-node-pos.git
+cd api-node-pos
 npm install
 ```
 ## Crie o arquivo .env
